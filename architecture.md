@@ -27,18 +27,18 @@ graph TB
     end
     
     subgraph "SDK Packages"
-        TLDRAW[tldraw<br/>Main SDK]
-        EDITOR[editor<br/>Core Editor]
+        TLDRAW[tldraw - Main SDK]
+        EDITOR[editor - Core Editor]
         AI[AI Module]
-        SYNC[Sync<br/>Multiplayer]
+        SYNC[Sync - Multiplayer]
     end
     
     subgraph "Core Infrastructure"
-        STATE[state<br/>Signals Library]
-        STORE[store<br/>Data Store]
-        TLSCHEMA[tlschema<br/>Type Definitions]
-        UTILS[utils<br/>Utilities]
-        VALIDATE[validate<br/>Validation]
+        STATE[state - Signals Library]
+        STORE[store - Data Store]
+        TLSCHEMA[tlschema - Type Definitions]
+        UTILS[utils - Utilities]
+        VALIDATE[validate - Validation]
     end
     
     subgraph "Backend Services"
@@ -132,18 +132,18 @@ graph LR
 
 ```mermaid
 graph TD
-    TLDRAW_PKG[tldraw<br/>v3.15.0]
-    EDITOR_PKG[@tldraw/editor<br/>v3.15.0]
-    STATE_PKG[@tldraw/state<br/>v3.15.0<br/>MIT License]
-    STATE_REACT[@tldraw/state-react<br/>v3.15.0]
-    STORE_PKG[@tldraw/store<br/>v3.15.0<br/>MIT License]
-    TLSCHEMA[@tldraw/tlschema<br/>v3.15.0]
-    UTILS[@tldraw/utils<br/>v3.15.0]
-    VALIDATE[@tldraw/validate<br/>v3.15.0]
-    AI_PKG[@tldraw/ai<br/>v3.15.0]
-    SYNC_PKG[@tldraw/sync<br/>v3.15.0]
-    SYNC_CORE[@tldraw/sync-core<br/>v3.15.0]
-    ASSETS[@tldraw/assets<br/>v3.15.0]
+    TLDRAW_PKG[tldraw v3.15.0]
+    EDITOR_PKG[tldraw/editor v3.15.0]
+    STATE_PKG[tldraw/state v3.15.0 MIT License]
+    STATE_REACT[tldraw/state-react v3.15.0]
+    STORE_PKG[tldraw/store v3.15.0 MIT License]
+    TLSCHEMA[tldraw/tlschema v3.15.0]
+    UTILS[tldraw/utils v3.15.0]
+    VALIDATE[tldraw/validate v3.15.0]
+    AI_PKG[tldraw/ai v3.15.0]
+    SYNC_PKG[tldraw/sync v3.15.0]
+    SYNC_CORE[tldraw/sync-core v3.15.0]
+    ASSETS[tldraw/assets v3.15.0]
     
     TLDRAW_PKG --> EDITOR_PKG
     TLDRAW_PKG --> STORE_PKG
@@ -210,22 +210,22 @@ graph TD
 ```mermaid
 graph TB
     subgraph "Frontend"
-        CLIENT[React Client<br/>tldraw.com]
+        CLIENT[React Client - tldraw.com]
         CLERK[Clerk Auth]
         ZERO[Zero Cache]
         POSTHOG[PostHog Analytics]
     end
     
     subgraph "Cloudflare Workers"
-        SYNC_WORKER[Sync Worker<br/>Multiplayer]
-        ASSET_WORKER[Asset Upload<br/>Worker]
-        IMAGE_WORKER[Image Resize<br/>Worker]
+        SYNC_WORKER[Sync Worker - Multiplayer]
+        ASSET_WORKER[Asset Upload Worker]
+        IMAGE_WORKER[Image Resize Worker]
     end
     
     subgraph "Storage"
-        R2[Cloudflare R2<br/>Asset Storage]
-        KV[Cloudflare KV<br/>Metadata]
-        DO[Durable Objects<br/>Room State]
+        R2[Cloudflare R2 - Asset Storage]
+        KV[Cloudflare KV - Metadata]
+        DO[Durable Objects - Room State]
     end
     
     CLIENT --> CLERK
@@ -257,14 +257,14 @@ graph TB
 ```mermaid
 graph LR
     subgraph "State Layer"
-        ATOMS[Atoms<br/>Base Values]
-        COMPUTED[Computed<br/>Derived Values]
-        REACTIONS[Reactions<br/>Side Effects]
+        ATOMS[Atoms - Base Values]
+        COMPUTED[Computed - Derived Values]
+        REACTIONS[Reactions - Side Effects]
     end
     
     subgraph "Store Layer"
-        RECORDS[Records<br/>Domain Objects]
-        HISTORY[History<br/>Undo/Redo]
+        RECORDS[Records - Domain Objects]
+        HISTORY[History - Undo/Redo]
         LISTENERS[Store Listeners]
     end
     
@@ -282,7 +282,7 @@ graph LR
     HISTORY --> RECORDS
     LISTENERS --> RECORDS
     
-    EDITOR_STATE --> STORE_LAYER
+    EDITOR_STATE --> RECORDS
     SHAPES --> RECORDS
     CAMERA --> ATOMS
     UI_STATE --> ATOMS
@@ -436,9 +436,9 @@ sequenceDiagram
 
 ```mermaid
 flowchart TD
-    SOURCE[Source Code<br/>TypeScript/React] --> LAZY[LazyRepo<br/>Task Runner]
+    SOURCE[Source Code - TypeScript/React] --> LAZY[LazyRepo - Task Runner]
     
-    LAZY --> TYPECHECK[TypeScript<br/>Type Checking]
+    LAZY --> TYPECHECK[TypeScript - Type Checking]
     LAZY --> BUILD[Build Process]
     LAZY --> TEST[Jest Tests]
     LAZY --> LINT[ESLint]
