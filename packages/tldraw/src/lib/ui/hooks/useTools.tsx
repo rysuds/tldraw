@@ -276,18 +276,40 @@ export function ToolsProvider({ overrides, children }: TLUiToolsProviderProps) {
 					onToolSelect(source, this)
 				},
 			},
-			{
-				id: 'highlight',
-				label: 'tool.highlight',
-				icon: 'tool-highlight',
-				// TODO: pick a better shortcut
-				kbd: 'shift+d',
-				onSelect(source) {
-					editor.setCurrentTool('highlight')
-					onToolSelect(source, this)
-				},
+		{
+			id: 'highlight',
+			label: 'tool.highlight',
+			icon: 'tool-highlight',
+			// TODO: pick a better shortcut
+			kbd: 'shift+d',
+			onSelect(source) {
+				editor.setCurrentTool('highlight')
+				onToolSelect(source, this)
 			},
-		]
+		},
+		{
+			id: 'emoji-brush',
+			label: 'tool.emoji-brush' as TLUiTranslationKey,
+			icon: (
+				<div
+					className="tlui-icon"
+					style={{
+						fontSize: '18px',
+						display: 'flex',
+						alignItems: 'center',
+						justifyContent: 'center',
+					}}
+				>
+					🎅
+				</div>
+			),
+			kbd: 'shift+e',
+			onSelect(source) {
+				editor.setCurrentTool('emoji-brush')
+				onToolSelect(source, this)
+			},
+		},
+	]
 
 		toolsArray.forEach((t) => (t.onSelect = t.onSelect.bind(t)))
 

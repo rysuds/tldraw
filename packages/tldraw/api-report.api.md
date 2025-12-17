@@ -91,6 +91,8 @@ import { TLEditorComponents } from '@tldraw/editor';
 import { TLEditorSnapshot } from '@tldraw/editor';
 import { TLEmbedShape } from '@tldraw/editor';
 import { TLEmbedShapeProps } from '@tldraw/editor';
+import { TLEmojiBrushShape } from '@tldraw/editor';
+import { TLEmojiBrushShapeProps } from '@tldraw/editor';
 import { TLExportType } from '@tldraw/editor';
 import { TLFileExternalAsset } from '@tldraw/editor';
 import { TLFontFace } from '@tldraw/editor';
@@ -479,6 +481,9 @@ export function centerSelectionAroundPoint(editor: Editor, position: VecLike): v
 
 // @public (undocumented)
 export function CheckBoxToolbarItem(): JSX_2.Element;
+
+// @public (undocumented)
+export const CHRISTMAS_EMOJIS: readonly ["🎄", "🎅", "🤶", "🦌", "⛄", "❄️", "🎁", "🔔", "⭐", "🕯️", "🎉", "✨", "🧦", "🍪", "🥛", "🌟", "🎀", "🧣", "🧤", "🍬"];
 
 // @public (undocumented)
 export function ClipboardMenuGroup(): JSX_2.Element;
@@ -953,10 +958,10 @@ export interface DefaultRichTextToolbarContentProps {
 }
 
 // @public (undocumented)
-export const defaultShapeTools: readonly [typeof TextShapeTool, typeof DrawShapeTool, typeof GeoShapeTool, typeof NoteShapeTool, typeof LineShapeTool, typeof FrameShapeTool, typeof ArrowShapeTool, typeof HighlightShapeTool];
+export const defaultShapeTools: readonly [typeof TextShapeTool, typeof DrawShapeTool, typeof GeoShapeTool, typeof NoteShapeTool, typeof LineShapeTool, typeof FrameShapeTool, typeof ArrowShapeTool, typeof HighlightShapeTool, typeof EmojiBrushShapeTool];
 
 // @public (undocumented)
-export const defaultShapeUtils: readonly [typeof TextShapeUtil, typeof BookmarkShapeUtil, typeof DrawShapeUtil, typeof GeoShapeUtil, typeof NoteShapeUtil, typeof LineShapeUtil, typeof FrameShapeUtil, typeof ArrowShapeUtil, typeof HighlightShapeUtil, typeof EmbedShapeUtil, typeof ImageShapeUtil, typeof VideoShapeUtil];
+export const defaultShapeUtils: readonly [typeof TextShapeUtil, typeof BookmarkShapeUtil, typeof DrawShapeUtil, typeof GeoShapeUtil, typeof NoteShapeUtil, typeof LineShapeUtil, typeof FrameShapeUtil, typeof ArrowShapeUtil, typeof HighlightShapeUtil, typeof EmbedShapeUtil, typeof ImageShapeUtil, typeof VideoShapeUtil, typeof EmojiBrushShapeUtil];
 
 // @public (undocumented)
 export function DefaultSharePanel(): JSX_2.Element;
@@ -1340,6 +1345,74 @@ export class EmbedShapeUtil extends BaseBoxShapeUtil<TLEmbedShape> {
     // (undocumented)
     static type: "embed";
 }
+
+// @public (undocumented)
+export interface EmojiBrushShapeOptions {
+    readonly emojiSize: number;
+    readonly emojiSpacing: number;
+}
+
+// @public (undocumented)
+export class EmojiBrushShapeTool extends StateNode {
+    // (undocumented)
+    static children(): TLStateNodeConstructor[];
+    // (undocumented)
+    static id: string;
+    // (undocumented)
+    static initial: string;
+    // (undocumented)
+    static isLockable: boolean;
+    // (undocumented)
+    onExit(): void;
+    // (undocumented)
+    shapeType: string;
+    // (undocumented)
+    static useCoalescedEvents: boolean;
+}
+
+// @public (undocumented)
+export class EmojiBrushShapeUtil extends ShapeUtil<TLEmojiBrushShape> {
+    // (undocumented)
+    component(shape: TLEmojiBrushShape): JSX_2.Element;
+    // (undocumented)
+    getDefaultProps(): TLEmojiBrushShape['props'];
+    // (undocumented)
+    getGeometry(shape: TLEmojiBrushShape): Circle2d | Polygon2d;
+    // (undocumented)
+    getInterpolatedProps(startShape: TLEmojiBrushShape, endShape: TLEmojiBrushShape, t: number): TLEmojiBrushShapeProps;
+    // (undocumented)
+    hideResizeHandles(shape: TLEmojiBrushShape): boolean;
+    // (undocumented)
+    hideRotateHandle(shape: TLEmojiBrushShape): boolean;
+    // (undocumented)
+    hideSelectionBoundsFg(shape: TLEmojiBrushShape): boolean;
+    // (undocumented)
+    indicator(shape: TLEmojiBrushShape): JSX_2.Element;
+    // (undocumented)
+    static migrations: TLPropsMigrations;
+    // (undocumented)
+    onResize(shape: TLEmojiBrushShape, info: TLResizeInfo<TLEmojiBrushShape>): {
+        props: {
+            points: {
+                emoji: string;
+                x: number;
+                y: number;
+                z?: number;
+            }[];
+        };
+    };
+    // (undocumented)
+    options: EmojiBrushShapeOptions;
+    // (undocumented)
+    static props: RecordProps<TLEmojiBrushShape>;
+    // (undocumented)
+    toSvg(shape: TLEmojiBrushShape): JSX_2.Element;
+    // (undocumented)
+    static type: "emoji-brush";
+}
+
+// @public (undocumented)
+export function EmojiBrushToolbarItem(): JSX_2.Element;
 
 // @public (undocumented)
 export class EraserTool extends StateNode {
