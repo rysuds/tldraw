@@ -227,6 +227,7 @@ export const DEFAULT_TRANSLATION = {
 	'tool.heart': 'Heart',
 	'tool.hexagon': 'Hexagon',
 	'tool.highlight': 'Highlight',
+	'tool.emoji-brush': 'Emoji Brush',
 	'tool.line': 'Line',
 	'tool.octagon': 'Octagon',
 	'tool.oval': 'Oval',

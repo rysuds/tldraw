@@ -287,6 +287,30 @@ export function ToolsProvider({ overrides, children }: TLUiToolsProviderProps) {
 					onToolSelect(source, this)
 				},
 			},
+			{
+				id: 'emoji-brush',
+				label: 'tool.emoji-brush' as TLUiTranslationKey,
+				icon: (
+					<div
+						className="tlui-icon"
+						role="img"
+						aria-label="Emoji Brush"
+						style={{
+							fontSize: '18px',
+							display: 'flex',
+							alignItems: 'center',
+							justifyContent: 'center',
+						}}
+					>
+						🎅
+					</div>
+				),
+				kbd: 'shift+e',
+				onSelect(source) {
+					editor.setCurrentTool('emoji-brush')
+					onToolSelect(source, this)
+				},
+			},
 		]
 
 		toolsArray.forEach((t) => (t.onSelect = t.onSelect.bind(t)))
