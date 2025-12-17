@@ -206,6 +206,10 @@ export const DefaultHorizontalAlignStyle: EnumStyleProp<"end-legacy" | "end" | "
 
 // @public (undocumented)
 export const defaultShapeSchemas: {
+    'emoji-brush': {
+        migrations: TLPropsMigrations;
+        props: RecordProps<TLEmojiBrushShape>;
+    };
     arrow: {
         migrations: MigrationSequence;
         props: RecordProps<TLArrowShape>;
@@ -289,6 +293,12 @@ export const embedShapeMigrations: TLPropsMigrations;
 
 // @public (undocumented)
 export const embedShapeProps: RecordProps<TLEmbedShape>;
+
+// @public (undocumented)
+export const emojiBrushShapeMigrations: TLPropsMigrations;
+
+// @public (undocumented)
+export const emojiBrushShapeProps: RecordProps<TLEmojiBrushShape>;
 
 // @public
 export class EnumStyleProp<T> extends StyleProp<T> {
@@ -965,7 +975,7 @@ export type TLDefaultFontStyle = T.TypeOf<typeof DefaultFontStyle>;
 export type TLDefaultHorizontalAlignStyle = T.TypeOf<typeof DefaultHorizontalAlignStyle>;
 
 // @public
-export type TLDefaultShape = TLArrowShape | TLBookmarkShape | TLDrawShape | TLEmbedShape | TLFrameShape | TLGeoShape | TLGroupShape | TLHighlightShape | TLImageShape | TLLineShape | TLNoteShape | TLTextShape | TLVideoShape;
+export type TLDefaultShape = TLArrowShape | TLBookmarkShape | TLDrawShape | TLEmbedShape | TLEmojiBrushShape | TLFrameShape | TLGeoShape | TLGroupShape | TLHighlightShape | TLImageShape | TLLineShape | TLNoteShape | TLTextShape | TLVideoShape;
 
 // @public (undocumented)
 export type TLDefaultSizeStyle = T.TypeOf<typeof DefaultSizeStyle>;
@@ -1033,6 +1043,27 @@ export interface TLEmbedShapeProps {
     url: string;
     // (undocumented)
     w: number;
+}
+
+// @public (undocumented)
+export interface TLEmojiBrushEmojiPlacement {
+    // (undocumented)
+    emoji: string;
+    // (undocumented)
+    position: VecModel;
+}
+
+// @public (undocumented)
+export type TLEmojiBrushShape = TLBaseShape<'emoji-brush', TLEmojiBrushShapeProps>;
+
+// @public (undocumented)
+export interface TLEmojiBrushShapeProps {
+    // (undocumented)
+    emojis: TLEmojiBrushEmojiPlacement[];
+    // (undocumented)
+    isComplete: boolean;
+    // (undocumented)
+    scale: number;
 }
 
 // @public (undocumented)
