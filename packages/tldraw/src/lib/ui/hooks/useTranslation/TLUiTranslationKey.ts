@@ -214,6 +214,7 @@ export type TLUiTranslationKey =
 	| 'tool.select'
 	| 'tool.hand'
 	| 'tool.draw'
+	| 'tool.emoji-brush'
 	| 'tool.eraser'
 	| 'tool.arrow-down'
 	| 'tool.arrow-left'

@@ -13,6 +13,7 @@ import { TLArrowShape } from '../shapes/TLArrowShape'
 import { TLBaseShape, createShapeValidator } from '../shapes/TLBaseShape'
 import { TLBookmarkShape } from '../shapes/TLBookmarkShape'
 import { TLDrawShape } from '../shapes/TLDrawShape'
+import { TLEmojiBrushShape } from '../shapes/TLEmojiBrushShape'
 import { TLEmbedShape } from '../shapes/TLEmbedShape'
 import { TLFrameShape } from '../shapes/TLFrameShape'
 import { TLGeoShape } from '../shapes/TLGeoShape'
@@ -34,6 +35,7 @@ export type TLDefaultShape =
 	| TLArrowShape
 	| TLBookmarkShape
 	| TLDrawShape
+	| TLEmojiBrushShape
 	| TLEmbedShape
 	| TLFrameShape
 	| TLGeoShape
