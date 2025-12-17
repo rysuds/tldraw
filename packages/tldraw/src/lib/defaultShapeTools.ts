@@ -1,5 +1,6 @@
 import { ArrowShapeTool } from './shapes/arrow/ArrowShapeTool'
 import { DrawShapeTool } from './shapes/draw/DrawShapeTool'
+import { EmojiBrushShapeTool } from './shapes/emoji-brush/EmojiBrushShapeTool'
 import { FrameShapeTool } from './shapes/frame/FrameShapeTool'
 import { GeoShapeTool } from './shapes/geo/GeoShapeTool'
 import { HighlightShapeTool } from './shapes/highlight/HighlightShapeTool'
@@ -11,6 +12,7 @@ import { TextShapeTool } from './shapes/text/TextShapeTool'
 export const defaultShapeTools = [
 	TextShapeTool,
 	DrawShapeTool,
+	EmojiBrushShapeTool,
 	GeoShapeTool,
 	NoteShapeTool,
 	LineShapeTool,

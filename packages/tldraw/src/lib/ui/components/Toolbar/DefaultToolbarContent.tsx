@@ -9,6 +9,7 @@ export function DefaultToolbarContent() {
 			<SelectToolbarItem />
 			<HandToolbarItem />
 			<DrawToolbarItem />
+			<EmojiBrushToolbarItem />
 			<EraserToolbarItem />
 			<ArrowToolbarItem />
 			<TextToolbarItem />
@@ -222,4 +223,9 @@ export function FrameToolbarItem() {
 /** @public @react */
 export function LaserToolbarItem() {
 	return <ToolbarItem tool="laser" />
+}
+
+/** @public @react */
+export function EmojiBrushToolbarItem() {
+	return <ToolbarItem tool="emoji-brush" />
 }

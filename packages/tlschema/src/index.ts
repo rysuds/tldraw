@@ -160,6 +160,13 @@ export {
 	type TLDrawShapeSegment,
 } from './shapes/TLDrawShape'
 export {
+	emojiBrushShapeMigrations,
+	emojiBrushShapeProps,
+	type TLEmojiBrushShape,
+	type TLEmojiBrushShapeProps,
+	type TLEmojiBrushEmojiPlacement,
+} from './shapes/TLEmojiBrushShape'
+export {
 	embedShapeMigrations,
 	embedShapeProps,
 	type TLEmbedShape,

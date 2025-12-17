@@ -215,6 +215,7 @@ export const DEFAULT_TRANSLATION = {
 	'tool.select': 'Select',
 	'tool.hand': 'Hand',
 	'tool.draw': 'Draw',
+	'tool.emoji-brush': 'Christmas Brush',
 	'tool.eraser': 'Eraser',
 	'tool.arrow-down': 'Arrow down',
 	'tool.arrow-left': 'Arrow left',

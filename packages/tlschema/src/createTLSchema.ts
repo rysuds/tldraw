@@ -26,6 +26,7 @@ import { TLPropsMigrations, processPropsMigrations } from './recordsWithProps'
 import { arrowShapeMigrations, arrowShapeProps } from './shapes/TLArrowShape'
 import { bookmarkShapeMigrations, bookmarkShapeProps } from './shapes/TLBookmarkShape'
 import { drawShapeMigrations, drawShapeProps } from './shapes/TLDrawShape'
+import { emojiBrushShapeMigrations, emojiBrushShapeProps } from './shapes/TLEmojiBrushShape'
 import { embedShapeMigrations, embedShapeProps } from './shapes/TLEmbedShape'
 import { frameShapeMigrations, frameShapeProps } from './shapes/TLFrameShape'
 import { geoShapeMigrations, geoShapeProps } from './shapes/TLGeoShape'
@@ -54,6 +55,7 @@ export const defaultShapeSchemas = {
 	arrow: { migrations: arrowShapeMigrations, props: arrowShapeProps },
 	bookmark: { migrations: bookmarkShapeMigrations, props: bookmarkShapeProps },
 	draw: { migrations: drawShapeMigrations, props: drawShapeProps },
+	'emoji-brush': { migrations: emojiBrushShapeMigrations, props: emojiBrushShapeProps },
 	embed: { migrations: embedShapeMigrations, props: embedShapeProps },
 	frame: { migrations: frameShapeMigrations, props: frameShapeProps },
 	geo: { migrations: geoShapeMigrations, props: geoShapeProps },
