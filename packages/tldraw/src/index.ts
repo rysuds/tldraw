@@ -117,6 +117,12 @@ export {
 export { BookmarkShapeUtil } from './lib/shapes/bookmark/BookmarkShapeUtil'
 export { DrawShapeTool } from './lib/shapes/draw/DrawShapeTool'
 export { DrawShapeUtil, type DrawShapeOptions } from './lib/shapes/draw/DrawShapeUtil'
+export { EmojiBrushShapeTool } from './lib/shapes/emoji-brush/EmojiBrushShapeTool'
+export {
+	CHRISTMAS_EMOJIS,
+	EmojiBrushShapeUtil,
+	type EmojiBrushShapeOptions,
+} from './lib/shapes/emoji-brush/EmojiBrushShapeUtil'
 export { EmbedShapeUtil } from './lib/shapes/embed/EmbedShapeUtil'
 export { FrameShapeTool } from './lib/shapes/frame/FrameShapeTool'
 export { FrameShapeUtil, type FrameShapeOptions } from './lib/shapes/frame/FrameShapeUtil'
@@ -469,6 +475,7 @@ export {
 	DiamondToolbarItem,
 	DrawToolbarItem,
 	EllipseToolbarItem,
+	EmojiBrushToolbarItem,
 	EraserToolbarItem,
 	FrameToolbarItem,
 	HandToolbarItem,
