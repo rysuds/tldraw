@@ -118,6 +118,19 @@ export { BookmarkShapeUtil } from './lib/shapes/bookmark/BookmarkShapeUtil'
 export { DrawShapeTool } from './lib/shapes/draw/DrawShapeTool'
 export { DrawShapeUtil, type DrawShapeOptions } from './lib/shapes/draw/DrawShapeUtil'
 export { EmbedShapeUtil } from './lib/shapes/embed/EmbedShapeUtil'
+export {
+	emojiBrushEmojiValidator,
+	emojiBrushShapeProps,
+	type TLEmojiBrushEmoji,
+	type TLEmojiBrushShape,
+	type TLEmojiBrushShapeProps,
+} from './lib/shapes/emoji-brush/emoji-brush-types'
+export { EmojiBrushShapeTool } from './lib/shapes/emoji-brush/EmojiBrushShapeTool'
+export {
+	EmojiBrushShapeUtil,
+	getChristmasEmojis,
+	getRandomChristmasEmoji,
+} from './lib/shapes/emoji-brush/EmojiBrushShapeUtil'
 export { FrameShapeTool } from './lib/shapes/frame/FrameShapeTool'
 export { FrameShapeUtil, type FrameShapeOptions } from './lib/shapes/frame/FrameShapeUtil'
 export { GeoShapeTool } from './lib/shapes/geo/GeoShapeTool'
@@ -469,6 +482,7 @@ export {
 	DiamondToolbarItem,
 	DrawToolbarItem,
 	EllipseToolbarItem,
+	EmojiBrushToolbarItem,
 	EraserToolbarItem,
 	FrameToolbarItem,
 	HandToolbarItem,
