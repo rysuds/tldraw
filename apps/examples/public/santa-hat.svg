@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Hat base (curved band) -->
+  <path d="M3 18c0-1 2-2 9-2s9 1 9 2" stroke="currentColor" fill="none"/>
+  <!-- Hat body (triangular shape) -->
+  <path d="M5 18c1-4 3-8 7-12c4 4 6 8 7 12" stroke="currentColor" fill="none"/>
+  <!-- Pom-pom at the tip -->
+  <circle cx="12" cy="5" r="2" stroke="currentColor" fill="none"/>
+  <!-- Fluffy band at bottom -->
+  <ellipse cx="12" cy="19" rx="9" ry="2" stroke="currentColor" fill="none"/>
+</svg>
