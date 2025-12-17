@@ -2,6 +2,7 @@ import { ArrowShapeUtil } from './shapes/arrow/ArrowShapeUtil'
 import { BookmarkShapeUtil } from './shapes/bookmark/BookmarkShapeUtil'
 import { DrawShapeUtil } from './shapes/draw/DrawShapeUtil'
 import { EmbedShapeUtil } from './shapes/embed/EmbedShapeUtil'
+import { EmojiBrushShapeUtil } from './shapes/emoji-brush/EmojiBrushShapeUtil'
 import { FrameShapeUtil } from './shapes/frame/FrameShapeUtil'
 import { GeoShapeUtil } from './shapes/geo/GeoShapeUtil'
 import { HighlightShapeUtil } from './shapes/highlight/HighlightShapeUtil'
@@ -25,4 +26,5 @@ export const defaultShapeUtils = [
 	EmbedShapeUtil,
 	ImageShapeUtil,
 	VideoShapeUtil,
+	EmojiBrushShapeUtil,
 ] as const

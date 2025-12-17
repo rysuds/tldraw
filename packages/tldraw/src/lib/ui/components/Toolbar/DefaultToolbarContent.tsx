@@ -37,6 +37,7 @@ export function DefaultToolbarContent() {
 
 			<LineToolbarItem />
 			<HighlightToolbarItem />
+			<EmojiBrushToolbarItem />
 			<LaserToolbarItem />
 			<FrameToolbarItem />
 		</>
@@ -217,6 +218,11 @@ export function HighlightToolbarItem() {
 /** @public @react */
 export function FrameToolbarItem() {
 	return <ToolbarItem tool="frame" />
+}
+
+/** @public @react */
+export function EmojiBrushToolbarItem() {
+	return <ToolbarItem tool="emoji-brush" />
 }
 
 /** @public @react */

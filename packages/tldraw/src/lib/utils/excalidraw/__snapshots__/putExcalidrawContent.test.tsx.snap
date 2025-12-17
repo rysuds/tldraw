@@ -2,27 +2,9 @@
 
 exports[`putExcalidrawContent test fixtures bound-arrows.json 1`] = `
 {
-  "binding:8": {
-    "fromId": "shape:7",
-    "id": "binding:8",
-    "meta": {},
-    "props": {
-      "isExact": false,
-      "isPrecise": false,
-      "normalizedAnchor": {
-        "x": 0.5,
-        "y": 0.5,
-      },
-      "snap": "none",
-      "terminal": "start",
-    },
-    "toId": "shape:5",
-    "type": "arrow",
-    "typeName": "binding",
-  },
-  "binding:9": {
-    "fromId": "shape:7",
-    "id": "binding:9",
+  "binding:10": {
+    "fromId": "shape:8",
+    "id": "binding:10",
     "meta": {},
     "props": {
       "isExact": false,
@@ -33,6 +15,24 @@ exports[`putExcalidrawContent test fixtures bound-arrows.json 1`] = `
       },
       "snap": "none",
       "terminal": "end",
+    },
+    "toId": "shape:7",
+    "type": "arrow",
+    "typeName": "binding",
+  },
+  "binding:9": {
+    "fromId": "shape:8",
+    "id": "binding:9",
+    "meta": {},
+    "props": {
+      "isExact": false,
+      "isPrecise": false,
+      "normalizedAnchor": {
+        "x": 0.5,
+        "y": 0.5,
+      },
+      "snap": "none",
+      "terminal": "start",
     },
     "toId": "shape:6",
     "type": "arrow",
@@ -52,8 +52,8 @@ exports[`putExcalidrawContent test fixtures bound-arrows.json 1`] = `
     "name": "Page 1",
     "typeName": "page",
   },
-  "shape:5": {
-    "id": "shape:5",
+  "shape:6": {
+    "id": "shape:6",
     "index": "a1",
     "isLocked": false,
     "meta": {},
@@ -89,8 +89,8 @@ exports[`putExcalidrawContent test fixtures bound-arrows.json 1`] = `
     "x": 337.298828125,
     "y": 319.130859375,
   },
-  "shape:6": {
-    "id": "shape:6",
+  "shape:7": {
+    "id": "shape:7",
     "index": "a2",
     "isLocked": false,
     "meta": {},
@@ -126,8 +126,8 @@ exports[`putExcalidrawContent test fixtures bound-arrows.json 1`] = `
     "x": 586.361328125,
     "y": 284.068359375,
   },
-  "shape:7": {
-    "id": "shape:7",
+  "shape:8": {
+    "id": "shape:8",
     "index": "a3",
     "isLocked": false,
     "meta": {},
@@ -175,9 +175,9 @@ exports[`putExcalidrawContent test fixtures bound-arrows.json 1`] = `
 
 exports[`putExcalidrawContent test fixtures bound-elbow-arrows.json 1`] = `
 {
-  "binding:7": {
-    "fromId": "shape:6",
-    "id": "binding:7",
+  "binding:8": {
+    "fromId": "shape:7",
+    "id": "binding:8",
     "meta": {},
     "props": {
       "isExact": false,
@@ -189,13 +189,13 @@ exports[`putExcalidrawContent test fixtures bound-elbow-arrows.json 1`] = `
       "snap": "none",
       "terminal": "start",
     },
-    "toId": "shape:5",
+    "toId": "shape:6",
     "type": "arrow",
     "typeName": "binding",
   },
-  "binding:8": {
-    "fromId": "shape:6",
-    "id": "binding:8",
+  "binding:9": {
+    "fromId": "shape:7",
+    "id": "binding:9",
     "meta": {},
     "props": {
       "isExact": false,
@@ -207,7 +207,7 @@ exports[`putExcalidrawContent test fixtures bound-elbow-arrows.json 1`] = `
       "snap": "none",
       "terminal": "end",
     },
-    "toId": "shape:4",
+    "toId": "shape:5",
     "type": "arrow",
     "typeName": "binding",
   },
@@ -225,8 +225,8 @@ exports[`putExcalidrawContent test fixtures bound-elbow-arrows.json 1`] = `
     "name": "Page 1",
     "typeName": "page",
   },
-  "shape:4": {
-    "id": "shape:4",
+  "shape:5": {
+    "id": "shape:5",
     "index": "a1",
     "isLocked": false,
     "meta": {},
@@ -262,8 +262,8 @@ exports[`putExcalidrawContent test fixtures bound-elbow-arrows.json 1`] = `
     "x": 329.876953125,
     "y": 122.65625,
   },
-  "shape:5": {
-    "id": "shape:5",
+  "shape:6": {
+    "id": "shape:6",
     "index": "a2",
     "isLocked": false,
     "meta": {},
@@ -299,8 +299,8 @@ exports[`putExcalidrawContent test fixtures bound-elbow-arrows.json 1`] = `
     "x": 574.267578125,
     "y": 450.98828125,
   },
-  "shape:6": {
-    "id": "shape:6",
+  "shape:7": {
+    "id": "shape:7",
     "index": "a3",
     "isLocked": false,
     "meta": {},
@@ -348,8 +348,8 @@ exports[`putExcalidrawContent test fixtures bound-elbow-arrows.json 1`] = `
 
 exports[`putExcalidrawContent test fixtures image.json 1`] = `
 {
-  "asset:5": {
-    "id": "asset:5",
+  "asset:6": {
+    "id": "asset:6",
     "meta": {},
     "props": {
       "fileSize": undefined,
@@ -377,8 +377,8 @@ exports[`putExcalidrawContent test fixtures image.json 1`] = `
     "name": "Page 1",
     "typeName": "page",
   },
-  "shape:4": {
-    "id": "shape:4",
+  "shape:5": {
+    "id": "shape:5",
     "index": "a1",
     "isLocked": false,
     "meta": {},
@@ -386,7 +386,7 @@ exports[`putExcalidrawContent test fixtures image.json 1`] = `
     "parentId": "page:page",
     "props": {
       "altText": "",
-      "assetId": "asset:5",
+      "assetId": "asset:6",
       "crop": null,
       "flipX": false,
       "flipY": false,
@@ -422,11 +422,57 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
   },
   "shape:10": {
     "id": "shape:10",
+    "index": "a6",
+    "isLocked": false,
+    "meta": {},
+    "opacity": 1,
+    "parentId": "shape:39",
+    "props": {
+      "color": "black",
+      "dash": "solid",
+      "points": {
+        "a1": {
+          "id": "a1",
+          "index": "a1",
+          "x": 0,
+          "y": 0,
+        },
+        "a2": {
+          "id": "a2",
+          "index": "a2",
+          "x": -5.553460149871626,
+          "y": 6.30104132389306,
+        },
+        "a3": {
+          "id": "a3",
+          "index": "a3",
+          "x": -3.4175139383828537,
+          "y": 9.718555262276368,
+        },
+        "a4": {
+          "id": "a4",
+          "index": "a4",
+          "x": 0.42718924229802724,
+          "y": 6.728230566191087,
+        },
+      },
+      "scale": 1,
+      "size": "m",
+      "spline": "cubic",
+    },
+    "rotation": 0,
+    "type": "line",
+    "typeName": "shape",
+    "x": 13.953068626553431,
+    "y": 122.40771110319884,
+  },
+  "shape:11": {
+    "id": "shape:11",
     "index": "a7",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -460,13 +506,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 110.60463469644037,
     "y": 65.59154187758622,
   },
-  "shape:11": {
-    "id": "shape:11",
+  "shape:12": {
+    "id": "shape:12",
     "index": "a8",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -494,13 +540,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 113.5949593925252,
     "y": 138.21371306821925,
   },
-  "shape:12": {
-    "id": "shape:12",
+  "shape:13": {
+    "id": "shape:13",
     "index": "a9",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -528,13 +574,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 186.96471175717943,
     "y": 101.36864092003043,
   },
-  "shape:13": {
-    "id": "shape:13",
+  "shape:14": {
+    "id": "shape:14",
     "index": "aA",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "align": "middle",
       "color": "black",
@@ -565,13 +611,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 129.93494791041803,
     "y": 58.329324758522944,
   },
-  "shape:14": {
-    "id": "shape:14",
+  "shape:15": {
+    "id": "shape:15",
     "index": "aB",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -617,13 +663,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 128.65338018352395,
     "y": 64.73716339299062,
   },
-  "shape:15": {
-    "id": "shape:15",
+  "shape:16": {
+    "id": "shape:16",
     "index": "aC",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -663,13 +709,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 86.14805057488866,
     "y": 83.53349005409564,
   },
-  "shape:16": {
-    "id": "shape:16",
+  "shape:17": {
+    "id": "shape:17",
     "index": "aD",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -715,13 +761,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 54.03295639352882,
     "y": 56.27102933726792,
   },
-  "shape:17": {
-    "id": "shape:17",
+  "shape:18": {
+    "id": "shape:18",
     "index": "aE",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -755,13 +801,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 52.02692266197482,
     "y": 46.16259638261863,
   },
-  "shape:18": {
-    "id": "shape:18",
+  "shape:19": {
+    "id": "shape:19",
     "index": "aF",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -795,13 +841,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 78.65118398409231,
     "y": 41.68884755390218,
   },
-  "shape:19": {
-    "id": "shape:19",
+  "shape:20": {
+    "id": "shape:20",
     "index": "aG",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -829,13 +875,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 39.883171982572094,
     "y": 176.46580455986418,
   },
-  "shape:20": {
-    "id": "shape:20",
+  "shape:21": {
+    "id": "shape:21",
     "index": "aH",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -869,13 +915,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 75.80724126246832,
     "y": 177.5045961052772,
   },
-  "shape:21": {
-    "id": "shape:21",
+  "shape:22": {
+    "id": "shape:22",
     "index": "aI",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -915,13 +961,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 37.34235608370864,
     "y": 214.12199808109153,
   },
-  "shape:22": {
-    "id": "shape:22",
+  "shape:23": {
+    "id": "shape:23",
     "index": "aJ",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -967,13 +1013,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 73.78340613938462,
     "y": 215.3347265497157,
   },
-  "shape:23": {
-    "id": "shape:23",
+  "shape:24": {
+    "id": "shape:24",
     "index": "aK",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1019,13 +1065,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 303.5237174377894,
     "y": 77.66713923173711,
   },
-  "shape:24": {
-    "id": "shape:24",
+  "shape:25": {
+    "id": "shape:25",
     "index": "aL",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1071,13 +1117,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 321.4126626602406,
     "y": 171.47003964485634,
   },
-  "shape:25": {
-    "id": "shape:25",
+  "shape:26": {
+    "id": "shape:26",
     "index": "aM",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1117,13 +1163,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 240.77742880243295,
     "y": 172.11082350830293,
   },
-  "shape:26": {
-    "id": "shape:26",
+  "shape:27": {
+    "id": "shape:27",
     "index": "aN",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1151,13 +1197,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 298.23026501301365,
     "y": 179.77166449587958,
   },
-  "shape:27": {
-    "id": "shape:27",
+  "shape:28": {
+    "id": "shape:28",
     "index": "aO",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1191,13 +1237,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 262.6752860428437,
     "y": 179.60832515546895,
   },
-  "shape:28": {
-    "id": "shape:28",
+  "shape:29": {
+    "id": "shape:29",
     "index": "aP",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1237,13 +1283,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 300.2777882573114,
     "y": 217.90545400466476,
   },
-  "shape:29": {
-    "id": "shape:29",
+  "shape:30": {
+    "id": "shape:30",
     "index": "aQ",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1289,13 +1335,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 264.20529297726443,
     "y": 218.3459309541106,
   },
-  "shape:30": {
-    "id": "shape:30",
+  "shape:31": {
+    "id": "shape:31",
     "index": "aR",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "align": "middle",
       "color": "black",
@@ -1326,13 +1372,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 240.64516318993037,
     "y": 3.0383339498980604,
   },
-  "shape:31": {
-    "id": "shape:31",
+  "shape:32": {
+    "id": "shape:32",
     "index": "aS",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1378,13 +1424,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 284.4680954394512,
     "y": 58.29658530386632,
   },
-  "shape:32": {
-    "id": "shape:32",
+  "shape:33": {
+    "id": "shape:33",
     "index": "aT",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1418,13 +1464,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 286.4850257957596,
     "y": 50.46690281164092,
   },
-  "shape:33": {
-    "id": "shape:33",
+  "shape:34": {
+    "id": "shape:34",
     "index": "aU",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1458,13 +1504,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 261.71080446543874,
     "y": 42.44843104137681,
   },
-  "shape:34": {
-    "id": "shape:34",
+  "shape:35": {
+    "id": "shape:35",
     "index": "aV",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1516,13 +1562,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 294.7648277640651,
     "y": 89.96252332450558,
   },
-  "shape:35": {
-    "id": "shape:35",
+  "shape:36": {
+    "id": "shape:36",
     "index": "aW",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1562,13 +1608,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 253.04134763952607,
     "y": 84.6420795502363,
   },
-  "shape:36": {
-    "id": "shape:36",
+  "shape:37": {
+    "id": "shape:37",
     "index": "aX",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "align": "middle",
       "color": "black",
@@ -1599,13 +1645,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 217.47838135887787,
     "y": 107.884018143101,
   },
-  "shape:37": {
-    "id": "shape:37",
+  "shape:38": {
+    "id": "shape:38",
     "index": "aY",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1639,8 +1685,8 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 221.5413287284482,
     "y": 107.06149549459315,
   },
-  "shape:38": {
-    "id": "shape:38",
+  "shape:39": {
+    "id": "shape:39",
     "index": "aY",
     "isLocked": false,
     "meta": {},
@@ -1653,13 +1699,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 377.74947728710913,
     "y": 249.93081594498142,
   },
-  "shape:4": {
-    "id": "shape:4",
+  "shape:5": {
+    "id": "shape:5",
     "index": "a1",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "align": "middle",
       "color": "black",
@@ -1690,13 +1736,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 16.354966542628517,
     "y": 0,
   },
-  "shape:5": {
-    "id": "shape:5",
+  "shape:6": {
+    "id": "shape:6",
     "index": "a2",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1742,13 +1788,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 34.35135494627548,
     "y": 76.16447562445728,
   },
-  "shape:6": {
-    "id": "shape:6",
+  "shape:7": {
+    "id": "shape:7",
     "index": "a3",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1794,13 +1840,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 16.836596012063637,
     "y": 167.26258154447237,
   },
-  "shape:7": {
-    "id": "shape:7",
+  "shape:8": {
+    "id": "shape:8",
     "index": "a4",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1840,13 +1886,13 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "x": 96.93457894290896,
     "y": 167.90336540791895,
   },
-  "shape:8": {
-    "id": "shape:8",
+  "shape:9": {
+    "id": "shape:9",
     "index": "a5",
     "isLocked": false,
     "meta": {},
     "opacity": 1,
-    "parentId": "shape:38",
+    "parentId": "shape:39",
     "props": {
       "color": "black",
       "dash": "solid",
@@ -1903,52 +1949,6 @@ exports[`putExcalidrawContent test fixtures line-drawing.json 1`] = `
     "typeName": "shape",
     "x": 32.642597977083824,
     "y": 76.59166486675531,
-  },
-  "shape:9": {
-    "id": "shape:9",
-    "index": "a6",
-    "isLocked": false,
-    "meta": {},
-    "opacity": 1,
-    "parentId": "shape:38",
-    "props": {
-      "color": "black",
-      "dash": "solid",
-      "points": {
-        "a1": {
-          "id": "a1",
-          "index": "a1",
-          "x": 0,
-          "y": 0,
-        },
-        "a2": {
-          "id": "a2",
-          "index": "a2",
-          "x": -5.553460149871626,
-          "y": 6.30104132389306,
-        },
-        "a3": {
-          "id": "a3",
-          "index": "a3",
-          "x": -3.4175139383828537,
-          "y": 9.718555262276368,
-        },
-        "a4": {
-          "id": "a4",
-          "index": "a4",
-          "x": 0.42718924229802724,
-          "y": 6.728230566191087,
-        },
-      },
-      "scale": 1,
-      "size": "m",
-      "spline": "cubic",
-    },
-    "rotation": 0,
-    "type": "line",
-    "typeName": "shape",
-    "x": 13.953068626553431,
-    "y": 122.40771110319884,
   },
 }
 `;
