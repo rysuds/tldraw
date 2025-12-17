@@ -226,6 +226,7 @@ export type TLUiTranslationKey =
 	| 'tool.heart'
 	| 'tool.hexagon'
 	| 'tool.highlight'
+	| 'tool.emoji-brush'
 	| 'tool.line'
 	| 'tool.octagon'
 	| 'tool.oval'
