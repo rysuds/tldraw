@@ -290,6 +290,12 @@ export const embedShapeMigrations: TLPropsMigrations;
 // @public (undocumented)
 export const embedShapeProps: RecordProps<TLEmbedShape>;
 
+// @public (undocumented)
+export const emojiBrushShapeMigrations: TLPropsMigrations;
+
+// @public (undocumented)
+export const emojiBrushShapeProps: RecordProps<TLEmojiBrushShape>;
+
 // @public
 export class EnumStyleProp<T> extends StyleProp<T> {
     // @internal
@@ -1033,6 +1039,24 @@ export interface TLEmbedShapeProps {
     url: string;
     // (undocumented)
     w: number;
+}
+
+// @public (undocumented)
+export interface TLEmojiBrushPoint extends VecModel {
+    emoji: string;
+}
+
+// @public (undocumented)
+export type TLEmojiBrushShape = TLBaseShape<'emoji-brush', TLEmojiBrushShapeProps>;
+
+// @public (undocumented)
+export interface TLEmojiBrushShapeProps {
+    // (undocumented)
+    isComplete: boolean;
+    // (undocumented)
+    points: TLEmojiBrushPoint[];
+    // (undocumented)
+    scale: number;
 }
 
 // @public (undocumented)
